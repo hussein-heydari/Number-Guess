@@ -1,5 +1,9 @@
-def get_num():
+def init():
     inp = int(input("I have a number between 1 and 100. Can you guess it?: "))
+    return inp
+
+def get_num():
+    inp = int(input("Take a new guess: "))
     return inp
 
 def give_feedback(a):
