@@ -1,7 +1,7 @@
 import random
 
 def rand_num_generator():
-    return random.randint(0, 100)
+    return random.randint(1, 100)
 
 def check_num(num_1, num_2):
     guess = False
