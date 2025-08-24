@@ -41,10 +41,10 @@ while status:
     #unless the score is already 1, in which case the game ends,
     #then feedback is given, a hint and the latest score are printed
     if not result:
-        score.penalty()
         if not result and score.score == 1:
             print("Sorry, Game Over!")
             break
+        score.penalty()
         print(give_feedback(result))
         print(hint(rand_num, guess))
         print(f"Your current score: {score.score}")

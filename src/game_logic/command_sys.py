@@ -19,15 +19,14 @@ def input_valid(func):
 
 @input_valid
 def init():
-    inp = input("I have a number between 1 and 100. Can you guess it?: ")
+    inp = input("\nI have a number between 1 and 100. Can you guess it?: ")
     return inp
 
 @input_valid
 def get_num():
-    inp = input("Take a new guess: ")
+    inp = input("\nTake a new guess: ")
     return inp
 
-#TODO:the prompts and feedback messages should be tidied up, linespace should be added
 def give_feedback(a):
     feedback = ""
     if a:
